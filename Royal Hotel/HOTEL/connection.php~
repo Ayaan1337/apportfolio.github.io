@@ -1,0 +1,5 @@
+<?php
+
+$con=pg_connect("host=192.168.16.1  dbname=TYBG10 user=TYBG10") or die ('OOPS! Database or Server Connection Error ');
+		//pg_select_db($db,$con);
+?>
